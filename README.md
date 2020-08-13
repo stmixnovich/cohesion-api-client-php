@@ -43,7 +43,7 @@ Basic client usage using User Token authentication:
 use Acquia\Cohesion\Api\AuthUserTokenClientFactory;
 
 $client = AuthUserTokenClientFactory::createUsingUserToken('X-AUTH-USER', 'X-AUTH-TOKEN', [
-  'base_uri' => 'https://sf-backoffice.cohesiondx8.test',
+  'base_uri' => 'https://localhost',
 ]);
 
 try {
